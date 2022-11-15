@@ -1,7 +1,13 @@
 #include <iostream>
+#include <vector>
+#include "BoardNavigation.h"
 using namespace std;
 
+
 int main() {
-    cout << "Goodbye";
+
+    BoardNavigation MyBoard;
+    MyBoard.ShowBoard();
+
     return 0;
 }
